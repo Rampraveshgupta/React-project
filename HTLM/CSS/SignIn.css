@@ -1,0 +1,130 @@
+body{
+    margin: 90px 150px;
+}
+.from-contain{
+    margin-left:350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.input-style{
+    margin-left: 230px;
+}
+h6{
+    font-weight: 600;
+}
+input {
+    width: 400px;
+    height: 45px;
+    border: 2px solid #00D78B;
+    border-radius: 7px;
+}
+.parent{
+    border: 2px solid #67e4b8;
+    height: 800px;
+    width: 600px;
+    margin-top: -60px;
+    background-color:#00D78B;
+   
+    
+}
+.child{
+    border: 2px solid #57e0b0;
+    margin: 60px;
+    height: 700px;
+    background-color: white;
+    border-radius: 300px;
+}
+.child img{
+    margin: 230px 70px;
+    height:210px;
+    
+}
+.Sigin_button{
+    margin-top: 35px;
+    background-color: #00D78B;
+    color: white;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width:auto;
+    height: auto;
+    
+}
+input[type="checkbox"],a {
+    color: rgba(0, 215, 139, 1)
+}
+p a{
+    display: flex;
+    justify-content: center;
+    margin-right: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+   
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    width: 100px;
+}
+
+.input-field {
+    padding: 10px;
+    text-align: center;
+} */

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ img{
+    max-height: 100%;
+}
+.container-fluid{
+    margin: inherit;
+}
+.bg_color{
+    background-color: rgba(0, 215, 139, 1);
+    width: 100%;
+    border-radius: 10px;
+}
+.row_border{
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgba(0, 215, 139, 1) ;
+}
+.contact{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 35px;
+}
+#siderbar{
+    margin-top: 30px;
+    width: 350px;
+    height: 790px;
+    border: 1px solid rgb(239, 234, 234);
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+}
+.main{
+    margin-top: 30px;
+    width: 840px;
+    height: auto;
+    padding: 30px 0px 20px 20px;
+    border: 1px solid rgb(239, 234, 234);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+button span{ 
+    font-size: 22px;
+    padding: 0px 50px 0px 10px;
+}
+ ul li{ 
+    font-size: 22px;
+    list-style: none;
+}
+#sidebar_check{
+    margin: 0px 20px 0px 0px;
+}
+.siderbar_height{
+    height: 550px;
+}
+.col-auto a{
+    color: gray;
+    text-decoration: none;                                                   
+}
+/* hr{
+    margin-top: ;
+} */
+.contact_outerbroder{
+    border: 1px solid rgb(239, 232, 232);
+    padding: 12px;
+    margin-top: 15px;
+}
+#name{
+    margin-left: 30px;
+}
+#padding_0{
+    padding: 0px;
+    /* color: gray; */
+}
+.pagging{
+    margin-top:20px;
+}
+
+

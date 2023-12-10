@@ -1,0 +1,128 @@
+body{
+    margin: 90px 150px;
+}
+img{
+    height: 100%;
+}
+.from-contain{
+    margin-left:280px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h6,button{
+    font-weight: 600;
+}
+.input-style{
+    margin-left: 230px;
+}
+input {
+    width: 400px;
+    height: 45px;
+    border: 2px solid #00D78B;
+    border-radius: 7px;
+}
+.parent{
+    border: 2px solid #67e4b8;
+    height: 850px;
+    width: 600px;
+    margin-top: -50px;
+    background-color:#00D78B;  
+}
+.child{
+    border: 2px solid #57e0b0;
+    margin: 60px;
+    height: 720px;
+    background-color: white;
+    border-radius: 300px;
+    
+}
+.child img{
+    margin: 230px 90px;
+    height:325px;
+    
+}
+.Sigin_button{
+    margin-top: 35px;
+    background-color: #00D78B;
+    color: white;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width:auto;
+    height: auto;
+    
+}
+input[type="checkbox"],a {
+    color: rgba(0, 215, 139, 1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+   
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    width: 100px;
+}
+
+.input-field {
+    padding: 10px;
+    text-align: center;
+} */

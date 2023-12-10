@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    padding: 20px;
+}
+ol, li, a{
+    display: flex;
+    padding: 17px;
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+}
+.main_1{
+    margin-left: 120px;
+    width: auto;
+}
+.img_dec{
+    border: 1px solid black;
+    border-radius: 35px;
+    margin-top: 40px;
+    
+} 
+.img_cont{
+    margin: auto;
+}
+.main_cont{
+    margin: auto;
+    justify-content: center;
+    /* height: auto; */
+}
+.row_cont1{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+span a{
+    text-decoration:underline;
+    color: #00D78B;
+    padding:0px;
+}
+.canva_decoration{
+    height:250px;
+    margin:30px 0px; 
+    border-radius: 40px;
+    
+}
+.card_dec{
+    margin: 15px;
+}
+.carousel{
+    border-radius: 60px;
+    background-color: #00D78B;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+span{
+    text-align: center;
+}
+.card{
+    margin: 20px;
+    background-color: rgba(247, 247, 247, 1);
+    padding:25px;
+}
+.container{
+    padding: 50px;
+}
+.profile_img{
+    width: auto;
+    margin: auto;
+}
+h4{
+    margin-top: 15px;
+    color: #00D78B;
+    font-weight: 600;
+}
+big{
+    font-size:xx-large;
+}
+.container_pad{
+    
+    height: 450px;
+}
+.footer{
+    color: white;
+}
+.footer_section{
+    background-color: rgba(26, 3, 44, 1);
+    padding: 20px;
+    margin-top: 50px;
+}
+hr{
+    color: aliceblue;
+}
+.Copyright{
+    color: aliceblue;
+    margin: auto;
+}
+.Copyright img{
+    padding: 0px;
+}
+.Social_icon{
+    text-align: end;
+    
+}
+
+

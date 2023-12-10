@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0">
+	<style>
+		/* .box {
+			
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		p {
+			font-size: 17px;
+			align-items: center;
+		}
+		.box a {
+			display: inline-block;
+			background-color: #fff;
+			padding: 15px;
+			border-radius: 3px;
+		} */
+		.modal {
+			align-items: center;
+			display: flex;
+			justify-content: center; 
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.40  );
+			transition: all 0.4s;
+			visibility: hidden;
+			opacity: 0;
+		}
+		.content {
+			position: absolute;
+			background: white;
+			width: 50%;
+			padding: 1em 2em;
+			border-radius: 4px;
+		} 
+		.modal:target {
+			visibility: visible;
+			opacity: 1;
+		}
+		.box-close {
+			position: absolute;
+			top: 0;
+			right: 15px;
+			color: #fe0606;
+			text-decoration: none;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box">
+		<a href="#popup-box"> 
+            <button class="btn btn-success send_btn" type="button">Send</button>
+		</a>
+	</div>
+	<div id="popup-box" class="modal">
+		<div class="content">
+			<div class="container-style">
+                <div class="row padding-row">
+                    <div class="col-auto">
+                        <h3>Send Via</h3>
+                    </div>
+                    <div class="col-auto">
+                        <img src="Img/Email_icon.png" alt="">
+                    </div>
+                    <div class="col-md-3 ">
+                        <img src="Img/Attech_icon.png" alt="">
+                    </div>
+                    <div class="col-md-6 center ">
+                        <img src="Img/shereIcon.png" alt="">
+                    </div>
+                    
+                    <div class="row padding-row">
+                        <hr>
+                        <h5><label for="">Email</label></h5>                            
+                    </div>
+                    <div class="row padding-row">
+                        <input type="email" name="email" placeholder="To Enter Email address">
+                    </div>
+                    <br>
+                    <div class="row padding-row">
+                        <input type="text" name="text" placeholder="Subject">
+                    </div>
+                    <div class="row padding-row">
+                        <input type="text" name="massg" placeholder="Message">
+                    </div>
+                    <div class="row">
+                        <div class="col-auto">
+                            <button class="btn btn-success send_btn" type="button">Send</button>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-outline-secondary cancel_btn ">Cancel</button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+			<b>
+				<p>Never Give Up !</p>
+			</b>
+			<a href="#"
+			class="box-close">
+				×
+			</a>
+		</div>
+	</div>
+</body>
+</html>
